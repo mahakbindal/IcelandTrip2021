@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Iceland Summer 2021</title>
+  <link rel="stylesheet" type="text/css" href="style.css" media="all" />
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <script src="scripts/jquery-3.4.1.min.js" type="text/javascript"></script>
+  <!-- <script src="scripts/general.js" type="text/javascript"></script> -->
+  <script src="scripts/homeScript.js" type="text/javascript"></script>
+</head>
+
+<body>
+  <nav>
+    <ul>
+      <li> <a href="home.html"> Home </a> </li>
+      <li> <a href="itinerary.html"> Itinerary </a> </li>
+      <li> <a href="activities.html"> Activities </a> </li>
+      <li> <a href="lodging.html"> Lodging </a> </li>
+    </ul>
+  </nav>
+</body>
+
+<div class="title">
+  <h1>Activities</h1>
+</div>
+
+<div class="bodytext">
+  <div class="row">
+    <div class="colcentereditems">
+      <h3>Geothermal Spas & Hot Springs</h3>
+      <p>We went to four different spas: Laugarvatn Fontana, the Blue Lagoon,
+        Reykjadalur Natural Hot Springs, and the Sky Lagoon. The natural hot
+        springs was a crowd favorite as the river was located in a beautiful
+        valley that we had to hike up to. The other spas were man-made, but heated
+        with geothermal energy. We enjoyed Lagarvatn Fontana and the Sky Lagoon
+        because they were more interactive and were more scenic. The Blue Lagoon
+        was nice as well, but more touristy and the silica in the water didn't
+        feel very pleasant.
+      </p>
+    </div>
+    <div class="gallery">
+      <figure class="hidden" id="carousel1">
+        <img src="img/hotsprings.png" alt="Hot Springs" class="homepic" />
+        <figcaption><cite>Reykjadalur Hot Springs</cite></figcaption>
+      </figure>
+
+      <figure class="hidden" id="carousel2">
+        <img src="img/skylagoon.png" alt="Sky Lagoon" class="homepic" />
+        <figcaption><cite>Sky Lagoon</cite></figcaption>
+      </figure>
+
+      <figure class="hidden" id="carousel3">
+        <img src="img/bluelagoon.png" alt="Blue Lagoon" class="homepic" />
+        <figcaption><cite>Blue Lagoon</cite></figcaption>
+      </figure>
+
+      <button id="next" class="slideshow">▶</button>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="gallery">
+      <figure class="hidden" id="glacier1">
+        <img src="img/glacier1.png" alt="Glacier" class="homepic" />
+        <figcaption><cite>Vatnajokull Glacier Hike</cite></figcaption>
+      </figure>
+
+      <figure class="hidden" id="glacier2">
+        <img src="img/hike.png" alt="Glacier Hike" class="homepic" />
+        <figcaption><cite>Vatnajokull Glacier Hike</cite></figcaption>
+      </figure>
+
+      <figure class="hidden" id="glacier3">
+        <img src="img/lagoon.png" alt="Glacier Lagoon" class="homepic" />
+        <figcaption><cite>Large icebergs in Jokulsarlon Glacier Lagoon</cite></figcaption>
+      </figure>
+      <button id="nextglacier" class="slideshow">▶</button>
+    </div>
+    <div class="colcentereditems">
+      <h3>Glacier Hike & Lagoon Kayaking</h3>
+      <p>We did a glacier hike in the Vatnajokull area. This activity was guided, and
+        the company provided the necessary safety gear (helmet, crampons,
+        harnesses, etc.). Other than the vague directions the company gave to arrive
+        at the location, the hike was great! The entire experience was about 3 hours,
+        with 1 hour actually on the ice. I would have enjoyed spending more time on
+        the glacier. As for kayaking in Jokulsarlon Glacier Lagoon, the activity was
+        cancelled due to bad weather, and large pieces of ice blocking the path.
+      </p>
+    </div>
+  </div>
+
+
+  <div class="row">
+    <div class="colcentereditems">
+      <h3>Golden Circle</h3>
+      <p>The Golden Circle is about a 200 mile drive going through some Iceland's
+        most popular attractions. We first went to Thingvellir National Park where we
+        saw unique rock formations and the continental drift between the
+        North American and Eurasian plates. We then went to Gullfoss, which is a large
+        waterfall, comparable to Niagara Falls. We also visited Haukadalur Valley, where
+        we saw active geysers.
+      </p>
+    </div>
+    <div class="gallery">
+      <figure class="hidden" id="lagoon1">
+        <img src="img/rocks.png" alt="Thingvellir National Park" class="homepic" />
+        <figcaption><cite>Thingvellir National Park</cite></figcaption>
+      </figure>
+
+      <figure class="hidden" id="lagoon2">
+        <img src="img/gullfoss.png" alt="Gullfoss" class="homepic" />
+        <figcaption><cite>Gullfoss Waterfall</cite></figcaption>
+      </figure>
+
+      <figure class="hidden" id="lagoon3">
+        <img src="img/geysir.png" alt="Geysir" class="homepic" />
+        <figcaption><cite>Haukadalur Valley Geysir</cite></figcaption>
+      </figure>
+
+      <button id="nextlagoon" class="slideshow">▶</button>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="gallery">
+      <figure class="hidden" id="volcano1">
+        <img src="img/lava1.png" alt="Lava Field" class="homepic" />
+        <figcaption><cite>Lava Field</cite></figcaption>
+      </figure>
+
+      <figure class="hidden" id="volcano2">
+        <img src="img/lava2.png" alt="Lava Field" class="homepic" />
+        <figcaption><cite>Lava Field</cite></figcaption>
+      </figure>
+
+      <figure class="hidden" id="volcano3">
+        <img src="img/crater.png" alt="Volcano Erupting" class="homepic" />
+        <figcaption><cite>Erupting Crater</cite></figcaption>
+      </figure>
+
+      <button id="nextvolcano" class="slideshow">▶</button>
+    </div>
+    <div class="colcentereditems">
+      <h3>Volcano Hike</h3>
+      <p>The volcano hike was by far one of my favorite activities. It is currently
+        erupting, and conditions are constantly changing. We were able to see the lava
+        fields, and flowing, glowing magma. We also hiked for about an hour to see
+        the crater, and saw the lava geysers. The weather was not ideal, but was
+        still a very euphoric, and once in a lifetime experience.
+      </p>
+    </div>
+  </div>
+</div>
+
+</html>

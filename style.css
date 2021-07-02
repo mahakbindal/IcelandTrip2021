@@ -1,0 +1,254 @@
+nav ul {
+  text-align: center;
+  margin-top: 20px;
+  list-style-type: none;
+  margin-bottom: 40px;
+}
+
+nav {
+  width: 100vw;
+  border: none
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+}
+
+nav li {
+  display: flex;
+  background-color: transparent;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  margin: 0 auto;
+  font-size: 25;
+}
+
+nav li:hover {
+  font-size: 28px;
+}
+
+nav li a {
+  color: black;
+  display: block;
+  padding: 15px 0px;
+  border-left: none;
+  text-decoration: none;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body {
+  font-family: sans-serif;
+  margin-left: 0px;
+  margin-right: 0px;
+  background-color: white;
+  background-image: url("img/wallpaper.png");
+  /* https://wallpapercave.com/blue-aesthetics-wallpapers */
+  margin-top: 0;
+}
+
+.bodytext {
+  margin-left: 10%;
+  margin-right: 10%;
+
+}
+
+h1 {
+  margin: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 80px;
+  margin-bottom: 20px;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+h2 {
+  background: linear-gradient(180deg, rgba(255,255,255,0) 65%, #88B6DB 65%);
+  display: inline;
+  /* https://beatrizcaraballo.com/blog/low-highlight-heading-links-squarespace */
+  /* border-bottom: double;
+  border-color: rgb(216, 209, 141); */
+  color: black;
+  padding: 5px;
+  margin-left: 6px;
+  margin-right: 6px;
+  font-family: New Century Schoolbook, TeX Gyre Schola, serif;
+  font-size: 40px;
+}
+
+.profile h2 {
+  font-size: 20px;
+}
+
+p {
+  padding-top: 15px;
+ font-size: 18pt;
+ margin-left: 10px;
+ color: #192131;
+ font-family: Palatino, URW Palladio L, serif	;
+}
+.right p {
+  margin-top: 5px;
+}
+
+strong {
+  color: #08377c;
+}
+
+h3 a {
+  font-size: 30px;
+  color: rgb(32, 101, 180)
+}
+
+li {
+  font-size: 18pt;
+  margin-left: 10px;
+  margin-bottom: 5px;
+  color: #202138;
+  font-family: "San Francisco Display", sans-serif;
+}
+
+h3 {
+  font-size: 20pt;
+  text-align: center;
+  font-family: Gill Sans, sans-serif;
+  background: linear-gradient(180deg, rgba(255,255,255,0) 65%, #88B6DB 65%);
+  display: inline;
+}
+
+img{
+  padding: 5px;
+}
+
+.title h1 {
+    border-bottom: none;
+}
+
+
+figure img {
+  width: 100%;
+  margin: auto;
+}
+
+figcaption {
+  text-align: center;
+}
+
+ul li {
+  line-height: 40px;
+}
+
+.homepicright {
+  margin-right: 10%
+}
+
+.next {
+  display: flex;
+  flex-direction: row;
+}
+
+.centerbody {
+  display: block;
+  text-align: center;
+}
+
+.right {
+display: flex;
+flex-direction: column;
+
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.gallery {
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+
+}
+
+.row img {
+  width: 100%;
+  height: auto;
+}
+
+
+textarea{
+  font-size: 16px;
+}
+
+.column {
+  padding-right: 12.5%;
+}
+
+.col {
+  display:block;
+  width: 50%;
+  padding-left: 30px;
+  padding-right: 30px;
+
+}
+
+.colcentereditems {
+  display: inline-block;
+  margin: auto;
+  width: 100%;
+
+}
+
+.title {
+    width: 100%;
+    display: flex;
+    margin-left: 50px;
+    margin-right: 50px;
+    color: rgb(18, 43, 70);
+}
+
+.row p {
+  margin-top: 0;
+}
+
+.slideshow
+{
+  margin-top: 5px;
+  width: 50px;
+  padding: 5px;
+  display: inline-block;
+  margin: 0 auto;
+  background: url("img/wallpaper.png");
+  border-radius: 50%;
+  color: white;
+  font-size: 18px;
+}
+
+.slideshow:hover
+{
+  margin-top: 5px;
+  width: 50px;
+  padding: 5px;
+  display: inline-block;
+  margin: 0 auto;
+  background-color: lightsteelblue;
+  border-radius: 50%;
+  color: white;
+  font-size: 18px;
+}
+
+.space h2 {
+  width: 100%;
+  line-height: 30px;
+}
+
+.hidden {
+    display: none  !important;
+}
