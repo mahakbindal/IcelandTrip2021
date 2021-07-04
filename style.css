@@ -72,18 +72,12 @@ h2 {
   background: linear-gradient(180deg, rgba(255,255,255,0) 65%, #88B6DB 65%);
   display: inline;
   /* https://beatrizcaraballo.com/blog/low-highlight-heading-links-squarespace */
-  /* border-bottom: double;
-  border-color: rgb(216, 209, 141); */
   color: black;
   padding: 5px;
   margin-left: 6px;
   margin-right: 6px;
   font-family: New Century Schoolbook, TeX Gyre Schola, serif;
   font-size: 40px;
-}
-
-.profile h2 {
-  font-size: 20px;
 }
 
 p {
@@ -182,11 +176,6 @@ flex-direction: column;
   height: auto;
 }
 
-
-textarea{
-  font-size: 16px;
-}
-
 .column {
   padding-right: 12.5%;
 }
@@ -226,6 +215,7 @@ textarea{
   display: inline-block;
   margin: 0 auto;
   background: url("img/wallpaper.png");
+  border-color: #14648E;
   border-radius: 50%;
   color: white;
   font-size: 18px;
