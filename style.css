@@ -45,8 +45,8 @@ nav li a {
 
 body {
   font-family: sans-serif;
-  margin-left: 0px;
-  margin-right: 0px;
+  margin-left: 2%;
+  margin-right: 2%;
   background-color: white;
   background-image: url("img/wallpaper.png");
   /* https://wallpapercave.com/blue-aesthetics-wallpapers */
@@ -232,11 +232,6 @@ flex-direction: column;
   border-radius: 50%;
   color: white;
   font-size: 18px;
-}
-
-.space h2 {
-  width: 100%;
-  line-height: 30px;
 }
 
 .hidden {
