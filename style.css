@@ -1,5 +1,5 @@
 nav {
-  width: 100vw;
+  width: 96vw;
   border: none
 }
 
@@ -22,9 +22,9 @@ nav li {
   background-color: transparent;
   justify-content: center;
   align-items: center;
-  width: 200px;
+  width: 400px;
   margin: 0 auto;
-  font-size: 25;
+  font-size: 20px;
 }
 
 nav li:hover {
@@ -34,7 +34,7 @@ nav li:hover {
 nav li a {
   color: black;
   display: block;
-  padding: 15px 0px;
+  padding: 8px 0px;
   border-left: none;
   text-decoration: none;
   font-family: Georgia, 'Times New Roman', Times, serif;
@@ -87,10 +87,10 @@ h3 {
 
 p {
   padding-top: 15px;
- font-size: 18pt;
- margin-left: 10px;
- color: #192131;
- font-family: Palatino, URW Palladio L, serif	;
+  font-size: 18pt;
+  margin-left: 10px;
+  color: #192131;
+  font-family: Palatino, URW Palladio L, serif	;
 }
 .right p {
   margin-top: 5px;
@@ -137,11 +137,6 @@ ul li {
 .next {
   display: flex;
   flex-direction: row;
-}
-
-.centerbody {
-  display: block;
-  text-align: center;
 }
 
 .right {
