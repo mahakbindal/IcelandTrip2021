@@ -1,23 +1,20 @@
-nav ul {
-  text-align: center;
-  margin-top: 20px;
-  list-style-type: none;
-  margin-bottom: 40px;
-}
-
 nav {
   width: 100vw;
   border: none
 }
 
 nav ul {
+  text-align: center;
+  margin-top: 20px;
+  list-style-type: none;
+  margin-bottom: 40px;
   list-style-type: none;
   padding: 0px;
   margin: 0px;
   overflow: hidden;
   display: flex;
   flex-direction: row;
-  text-align: center;
+  background-color: rgba(166, 192, 212, 0.349);
 }
 
 nav li {
@@ -80,6 +77,14 @@ h2 {
   font-size: 40px;
 }
 
+h3 {
+  font-size: 20pt;
+  text-align: center;
+  font-family: Gill Sans, sans-serif;
+  background: linear-gradient(180deg, rgba(255,255,255,0) 65%, #88B6DB 65%);
+  display: inline;
+}
+
 p {
   padding-top: 15px;
  font-size: 18pt;
@@ -92,12 +97,7 @@ p {
 }
 
 strong {
-  color: #08377c;
-}
-
-h3 a {
-  font-size: 30px;
-  color: rgb(32, 101, 180)
+  color: #192131;
 }
 
 li {
@@ -108,14 +108,6 @@ li {
   font-family: "San Francisco Display", sans-serif;
 }
 
-h3 {
-  font-size: 20pt;
-  text-align: center;
-  font-family: Gill Sans, sans-serif;
-  background: linear-gradient(180deg, rgba(255,255,255,0) 65%, #88B6DB 65%);
-  display: inline;
-}
-
 img{
   padding: 5px;
 }
@@ -123,7 +115,6 @@ img{
 .title h1 {
     border-bottom: none;
 }
-
 
 figure img {
   width: 100%;
@@ -201,7 +192,7 @@ flex-direction: column;
     display: flex;
     margin-left: 50px;
     margin-right: 50px;
-    color: rgb(18, 43, 70);
+    color: #192131;
 }
 
 .row p {
@@ -216,7 +207,7 @@ flex-direction: column;
   display: inline-block;
   margin: 0 auto;
   background: url("img/wallpaper.png");
-  border-color: #14648E;
+  border-color: rgb(90, 128, 148);
   border-radius: 50%;
   color: white;
   font-size: 18px;
