@@ -28,7 +28,7 @@ nav li {
 }
 
 nav li:hover {
-  font-size: 28px;
+  background-color: rgba(110, 142, 167, 0.349);
 }
 
 nav li a {
