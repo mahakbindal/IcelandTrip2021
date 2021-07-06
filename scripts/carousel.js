@@ -1,57 +1,57 @@
 $(document).ready(function () {
-  $("#carousel1").removeClass("hidden");
+  $("#carousel1").removeClass("hide");
   $("#next").on("click", function () {
     if ($("#carousel1").is(":visible")) {
-      $("#carousel1").addClass("hidden");
-      $("#carousel2").removeClass("hidden");
+      $("#carousel1").addClass("hide");
+      $("#carousel2").removeClass("hide");
     } else if ($("#carousel2").is(":visible")) {
-      $("#carousel2").addClass("hidden");
-      $("#carousel3").removeClass("hidden");
+      $("#carousel2").addClass("hide");
+      $("#carousel3").removeClass("hide");
     } else if ($("#carousel3").is(":visible")) {
-      $("#carousel3").addClass("hidden");
-      $("#carousel1").removeClass("hidden");
+      $("#carousel3").addClass("hide");
+      $("#carousel1").removeClass("hide");
     }
   });
 
-  $("#glacier1").removeClass("hidden");
+  $("#glacier1").removeClass("hide");
   $("#nextglacier").on("click", function () {
     if ($("#glacier1").is(":visible")) {
-      $("#glacier1").addClass("hidden");
-      $("#glacier2").removeClass("hidden");
+      $("#glacier1").addClass("hide");
+      $("#glacier2").removeClass("hide");
     } else if ($("#glacier2").is(":visible")) {
-      $("#glacier2").addClass("hidden");
-      $("#glacier3").removeClass("hidden");
+      $("#glacier2").addClass("hide");
+      $("#glacier3").removeClass("hide");
     } else if ($("#glacier3").is(":visible")) {
-      $("#glacier3").addClass("hidden");
-      $("#glacier1").removeClass("hidden");
+      $("#glacier3").addClass("hide");
+      $("#glacier1").removeClass("hide");
     }
   });
 
-  $("#lagoon1").removeClass("hidden");
+  $("#lagoon1").removeClass("hide");
   $("#nextlagoon").on("click", function () {
     if ($("#lagoon1").is(":visible")) {
-      $("#lagoon1").addClass("hidden");
-      $("#lagoon2").removeClass("hidden");
+      $("#lagoon1").addClass("hide");
+      $("#lagoon2").removeClass("hide");
     } else if ($("#lagoon2").is(":visible")) {
-      $("#lagoon2").addClass("hidden");
-      $("#lagoon3").removeClass("hidden");
+      $("#lagoon2").addClass("hide");
+      $("#lagoon3").removeClass("hide");
     } else if ($("#lagoon3").is(":visible")) {
-      $("#lagoon3").addClass("hidden");
-      $("#lagoon1").removeClass("hidden");
+      $("#lagoon3").addClass("hide");
+      $("#lagoon1").removeClass("hide");
     }
   });
 
-  $("#volcano1").removeClass("hidden");
+  $("#volcano1").removeClass("hide");
   $("#nextvolcano").on("click", function () {
     if ($("#volcano1").is(":visible")) {
-      $("#volcano1").addClass("hidden");
-      $("#volcano2").removeClass("hidden");
+      $("#volcano1").addClass("hide");
+      $("#volcano2").removeClass("hide");
     } else if ($("#volcano2").is(":visible")) {
-      $("#volcano2").addClass("hidden");
-      $("#volcano3").removeClass("hidden");
+      $("#volcano2").addClass("hide");
+      $("#volcano3").removeClass("hide");
     } else if ($("#volcano3").is(":visible")) {
-      $("#volcano3").addClass("hidden");
-      $("#volcano1").removeClass("hidden");
+      $("#volcano3").addClass("hide");
+      $("#volcano1").removeClass("hide");
     }
   });
 });
