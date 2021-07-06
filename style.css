@@ -5,12 +5,12 @@ nav {
 
 nav ul {
   text-align: center;
+  list-style-type: none;
+  margin: 0px;
+  margin-bottom: 40px;
   margin-top: 20px;
   list-style-type: none;
-  margin-bottom: 40px;
-  list-style-type: none;
   padding: 0px;
-  margin: 0px;
   overflow: hidden;
   display: flex;
   flex-direction: row;
@@ -32,11 +32,11 @@ nav li:hover {
 }
 
 nav li a {
-  color: black;
-  display: block;
   padding: 8px 0px;
+  display: block;
   border-left: none;
   text-decoration: none;
+  color: black;
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
@@ -50,10 +50,12 @@ body {
   margin-top: 0;
 }
 
-.bodytext {
-  margin-left: 10%;
-  margin-right: 10%;
-
+.title {
+  width: 100%;
+  display: flex;
+  margin-left: 50px;
+  margin-right: 50px;
+  color: #192131;
 }
 
 h1 {
@@ -85,6 +87,12 @@ h3 {
   display: inline;
 }
 
+.bodytext {
+  margin-left: 10%;
+  margin-right: 10%;
+
+}
+
 p {
   padding-top: 15px;
   font-size: 18pt;
@@ -101,24 +109,15 @@ strong {
 }
 
 li {
-  font-size: 18pt;
-  margin-left: 10px;
   margin-bottom: 5px;
+  margin-left: 10px;
   color: #202138;
+  font-size: 18pt;
   font-family: "San Francisco Display", sans-serif;
-}
-
-img{
-  padding: 5px;
 }
 
 .title h1 {
     border-bottom: none;
-}
-
-figure img {
-  width: 100%;
-  margin: auto;
 }
 
 figcaption {
@@ -128,10 +127,6 @@ figcaption {
 
 ul li {
   line-height: 40px;
-}
-
-.rightimg {
-  margin-right: 10%
 }
 
 .next {
@@ -146,8 +141,8 @@ flex-direction: column;
 }
 
 .row {
-    display: flex;
-    flex-direction: row;
+  display: flex;
+  flex-direction: row;
 }
 
 
@@ -156,11 +151,6 @@ flex-direction: column;
   justify-content: center;
   text-align: center;
 
-}
-
-.row img {
-  width: 100%;
-  height: auto;
 }
 
 .col {
@@ -178,25 +168,35 @@ flex-direction: column;
 
 }
 
-.title {
-    width: 100%;
-    display: flex;
-    margin-left: 50px;
-    margin-right: 50px;
-    color: #192131;
-}
-
 .row p {
   margin-top: 0;
 }
 
+figure img {
+  width: 100%;
+  margin: auto;
+}
+
+img{
+  padding: 5px;
+}
+
+.rightimg {
+  margin-right: 10%
+}
+
+.row img {
+  width: 100%;
+  height: auto;
+}
+
 .gallerybtn
 {
-  margin-top: 5px;
-  width: 50px;
-  padding: 5px;
-  display: inline-block;
   margin: 0 auto;
+  margin-top: 5px;
+  padding: 10px;
+  width: 50px;
+  display: inline-block;
   background: url("img/wallpaper.png");
   border-color: rgb(90, 128, 148);
   border-radius: 50%;
@@ -206,11 +206,11 @@ flex-direction: column;
 
 .gallerybtn:hover
 {
-  margin-top: 5px;
-  width: 50px;
-  padding: 5px;
-  display: inline-block;
   margin: 0 auto;
+  margin-top: 5px;
+  padding: 10px;
+  width: 50px;
+  display: inline-block;
   background-color: lightsteelblue;
   border-radius: 50%;
   color: white;
