@@ -130,7 +130,7 @@ ul li {
   line-height: 40px;
 }
 
-.homepicright {
+.rightimg {
   margin-right: 10%
 }
 
@@ -163,10 +163,6 @@ flex-direction: column;
   height: auto;
 }
 
-.column {
-  padding-right: 12.5%;
-}
-
 .col {
   display:block;
   width: 50%;
@@ -194,7 +190,7 @@ flex-direction: column;
   margin-top: 0;
 }
 
-.slideshow
+.gallerybtn
 {
   margin-top: 5px;
   width: 50px;
@@ -208,7 +204,7 @@ flex-direction: column;
   font-size: 18px;
 }
 
-.slideshow:hover
+.gallerybtn:hover
 {
   margin-top: 5px;
   width: 50px;
